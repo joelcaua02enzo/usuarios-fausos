@@ -1,0 +1,128 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 600px; /* Limita a largura máxima do container */
+    margin-bottom: 20px;
+  }
+  
+  #user {
+    margin-bottom: 20px;
+  }
+  
+  #user img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  button:active {
+    transform: scale(0.98);
+    transition: ease 0.1s;
+    opacity: 0.8;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    margin-top: auto;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icon {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007bff;
+  }
+  /* Media Queries para telas menores */
+@media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    #user img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .social-icons {
+      gap: 10px;
+    }
+  
+    .social-icon {
+      font-size: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    #user img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 6px 12px;
+    }
+  
+    .social-icon {
+      font-size: 18px;
+    }
+  }
+samp{
+    font-size: 20px;
+    color: black;
+}
